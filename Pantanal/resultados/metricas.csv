@@ -1,0 +1,5 @@
+modelo,conjunto,acuracia,precisao,sensibilidade,f1_score,roc_auc,taxa_falsos_alertas,verdadeiros_negativos,falsos_positivos,falsos_negativos,verdadeiros_positivos
+regressao_logistica,validacao,0.7833,0.1351,0.4167,0.2041,0.5774,0.1905,136,32,7,5
+regressao_logistica,teste,0.6611,0.1642,0.6875,0.2651,0.7016,0.3415,108,56,5,11
+random_forest,validacao,0.8722,0.0769,0.0833,0.0800,0.5623,0.0714,156,12,11,1
+random_forest,teste,0.8444,0.1250,0.1250,0.1250,0.5842,0.0854,150,14,14,2

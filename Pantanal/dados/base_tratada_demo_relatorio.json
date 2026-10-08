@@ -1,0 +1,32 @@
+{
+  "aviso": "Confira os filtros territoriais antes de tratar a base como Serra do Amolar.",
+  "inmet": {
+    "linhas_brutas": 4800,
+    "dias_gerados": 1200,
+    "inicio": "2021-01-01",
+    "fim": "2024-04-14",
+    "ausentes_temperatura": 0,
+    "ausentes_umidade": 0,
+    "ausentes_precipitacao": 0,
+    "colunas_utilizadas": {
+      "data": "Data",
+      "temperatura": "TEMPERATURA MÁXIMA NA HORA ANT. (AUT) (°C)",
+      "umidade": "UMIDADE RELATIVA DO AR, HORÁRIA (%)",
+      "precipitacao": "PRECIPITAÇÃO TOTAL, HORÁRIO (mm)"
+    }
+  },
+  "inpe": {
+    "linhas_brutas": 92,
+    "focos_apos_filtros": 92,
+    "dias_com_foco": 92,
+    "filtros": [
+      "município=Corumbá"
+    ],
+    "coluna_data": "data_hora_gmt"
+  },
+  "base_final": {
+    "linhas": 1199,
+    "dias_com_alvo_positivo": 92,
+    "percentual_positivo": 7.6731
+  }
+}

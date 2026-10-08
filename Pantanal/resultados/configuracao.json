@@ -1,0 +1,21 @@
+{
+  "arquivo": "/workspace/scratch/cdbce3ff5290/pantanal_guardian_ai/dados/base_tratada_demo.csv",
+  "registros": 1199,
+  "variaveis": [
+    "temperatura_maxima",
+    "umidade_minima",
+    "dias_sem_chuva"
+  ],
+  "alvo": "foco_dia_seguinte",
+  "divisao": {
+    "treino": "70%",
+    "validacao": "15%",
+    "teste": "15%"
+  },
+  "limiar": 0.5,
+  "modelo_escolhido": "regressao_logistica",
+  "periodo": {
+    "inicio": "2021-01-01",
+    "fim": "2024-04-13"
+  }
+}
